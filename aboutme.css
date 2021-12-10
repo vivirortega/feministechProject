@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'NotoSerif';
+    src: url(/fonts/NotoSerif-Regular.ttf) format('truetype');
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(/fonts/Ubuntu-Bold.ttf) format('truetype');
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'IBM';
+    src: url(/fonts/IBMPlexSans-Regular.ttf) format('truetype');
+    font-size: normal;
+}
+
+body {
+    font-family: 'NotoSerif';
+    background-color: #EEF0F6;
+    height: 100vh;
+    padding: 4rem;
+}
+
+.main img {
+    height: 160px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 100px;
+    border-style: groove;
+}
+
+.container {
+    margin-top: 2rem;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    justify-items: center;
+    left: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #757BC8;
+    font-family: 'Ubuntu';
+}
+
+h1:hover {
+    color: #DAB6FC;
+}
+
+.text__aboutme {
+    font-size: 1rem;
+    color: black;
+    font-family: 'NotoSerif';
+    width: 500px;
+    height: 700px;
+}
+
+.header__header {
+    padding: 1rem;
+    color: #757BC8;
+    font-size: Ubuntu;
+}
+
+.header {
+    position: fixed;
+    left: 1px;
+    margin-top: none;
+    top: 0;
+}
+
+@media (max-width: 414px) {
+    .main img {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .main {
+        width: 100%;
+        height: 700px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .text__aboutme {
+        font-size: 1.2rem;
+        width: 400px;
+        height: 600;
+        font-family: 'NotoSerif';
+        margin-top: 0;
+    }
+    .header {
+        font-size: 1rem;
+    }
+    .container {
+        margin-top: 0;
+    }
+    @media (max-width: 375px) {
+        .main img {
+            height: 180px;
+        }
+        .text__aboutme {
+            font-size: 1rem;
+            width: 300px;
+            font-family: 'NotoSerif';
+            width: 300px;
+        }
+        .main {
+            width: 100%;
+        }
+        .header {
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 320px) {
+        .text__aboutme {
+            font-size: 14px;
+            width: 300px;
+        }
+        .main {
+            width: 100%;
+        }
+        .container {
+            margin-top: 0;
+        }
+        .header {
+            font-size: 15px;
+        }
+        .main img {
+            height: 150px;
+        }
+    }
+}
