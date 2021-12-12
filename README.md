@@ -6,6 +6,7 @@
 <ul>
 <li>BEM, metodologia CSS.</li>
 <li>HTML semântico.</li>
+  <li>Responsividade.</li>
 
 <h2>Créditos e conclusão.</h2>
 Projeto criado por mim com auxilio da mentora <a href="https://github.com/saranascimento">Sara Gomes</a>.
